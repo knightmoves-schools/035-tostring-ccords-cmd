@@ -11,5 +11,9 @@ public class Person {
       this.age = age;
    }
 
+   public override string ToString() {
+      return $"{firstName} {lastName} {age}";
+   }
+
    // Add your code here
 }
